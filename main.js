@@ -49,3 +49,11 @@ audioButton.addEventListener("click", function() {
     audioElement.play();
 });
 
+const toggleButton = document.querySelector(".alt");
+const buttons = document.querySelectorAll(".alinharButtons .btn1");
+
+toggleButton.addEventListener("click", () => {
+    buttons.forEach(button => {
+        button.classList.toggle("nova-classe");
+    });
+});

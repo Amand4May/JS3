@@ -1,0 +1,31 @@
+.but{
+    background-color: rgb(255, 0, 64);
+    color: aliceblue;
+    border-radius: 30px;
+    width: 120px;
+    height: 60px;
+    border: 2px;
+    cursor: pointer;
+}
+
+.alinharImg{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+}
+
+.alinharBtn{
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    margin-top: 30px;
+    margin-left: 30px;
+}
+
+.alinharButtons{
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    margin-top: 30px;
+    margin-left: 30px;
+}

@@ -2,7 +2,7 @@ const dogImage = document.getElementById('dog');
 const button = document.querySelector('.bt');
 
 const dogOriginal = './img/dog.png';
-const celular = './img/vert.png';
+const celular = 'img/vert.png';
 
 let isdogOriginal = true;
 

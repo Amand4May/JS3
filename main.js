@@ -22,7 +22,7 @@ const textButton = document.querySelector('.btnText');
 const textElement = document.querySelector('.text');
 
 const audioButton = document.querySelector('.btnAudio');
-const audioElement = document.querySelector('.audio');
+const audioElement = document.querySelector('.aud');
 
 let isTitleChanged = false;
 let isTextColorChanged = false;
@@ -45,9 +45,7 @@ textButton.addEventListener('click', () => {
     isTextColorChanged = !isTextColorChanged; 
 });
 
-document.querySelector('.altBtn').addEventListener('click', function() {
-    const buttons = document.querySelectorAll('#buttonContainer button');
-    buttons.forEach(button => {
-        button.classList.toggle('class');
-    });
+audioButton.addEventListener("click", function() {
+    audioElement.play();
 });
+

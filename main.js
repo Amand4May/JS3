@@ -1,16 +1,13 @@
 const dogImage = document.getElementById('dog');
 const button = document.querySelector('.bt');
 
-const dogOriginal = './img/dog.png';
-const celular = 'img/vert.png';
-
 let isdogOriginal = true;
 
 button.addEventListener('click', () => {
     if (isdogOriginal) {
-        dogImage.src = celular;
+        dogImage.src = './img/dog.png';
     } else {
-        dogImage.src = dogOriginal;
+        dogImage.src = 'img/vert.png';
     }
     isdogOriginal = !isdogOriginal;
 });

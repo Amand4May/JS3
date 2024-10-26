@@ -7,7 +7,7 @@ button.addEventListener('click', () => {
     if (isdogOriginal) {
         dogImage.src = './img/dog.png';
     } else {
-        dogImage.src = 'img/vert.png';
+        dogImage.src = 'img/Vert.png';
     }
     isdogOriginal = !isdogOriginal;
 });
